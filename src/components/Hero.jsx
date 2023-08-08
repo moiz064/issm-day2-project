@@ -3,7 +3,7 @@ import { grid } from '../assets'
 
 const Hero = () => {
     return (
-        <section className='p-25 flex flex-col'>
+        <section className='p-[25px] flex flex-col'>
             <img src={grid} alt="grid"
                 className='self-center mt-10 w-[400px]'
             />

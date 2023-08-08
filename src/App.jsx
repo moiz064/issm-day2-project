@@ -4,11 +4,25 @@ import Hero from './components/Hero'
 import Card from './components/Card'
 
 const App = () => {
+  const person = {
+    img: 'wedding',
+    rating: 4.8,
+    reviewCount: 6,
+    country: 'USA',
+    title: 'Life lessons with katie zaferes',
+    price: 136
+  }
   return (
     <div>
       <Navbar />
       <Hero />
-      <Card />
+      <Card
+        img= 'wedding.png'
+      rating= {4.8}
+      reviewCount= {6}
+      country= 'USA'
+      title= 'Life lessons with katie zaferes'
+      price= {136} />
     </div>
   )
 }
