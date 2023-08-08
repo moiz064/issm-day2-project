@@ -3,7 +3,7 @@ import { star } from '../../public/assets'
 
 const Card = ({ img, rating, reviewCount, country, title, price }) => (
 
-    <div className='flex flex-0 justify-between flex-col max-w-[175px] rounded-[20px] mx-10 mb-10 bg-slate-200 text-sm font'>
+    <div className='flex flex-0 justify-between flex-col w-[175px] rounded-[20px] mx-10 mb-10 text-sm font'>
 
         <img src={`../assets/${img}`} alt={img}
             className='w-[100%] rounded-[20px]'
