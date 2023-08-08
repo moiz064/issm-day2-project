@@ -7,9 +7,8 @@ import data from './data'
 const App = () => {
 
   const card =
-    <ul className='flex flex-row '>
+    <ul className='flex flex-row'>
       {
-
         data.map((item) => (
           <li>
             < Card
@@ -32,7 +31,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-      <section className='flex flex-row overflow-x-auto'>
+      <section className='flex flex-row overflow-x-auto mx-auto sm:place-content-center'>
         {card}
       </section>
 
