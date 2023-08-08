@@ -1,11 +1,11 @@
 import React from 'react'
-import { wedding, star } from '../assets'
+import { star } from '../../public/assets'
 
 const Card = ({ img, rating, reviewCount, country, title, price }) => (
 
-    <div className='flex justify-between flex-col max-w-[175px] rounded-[20px] mx-10 mb-10 bg-slate-200 text-sm font'>
-        
-        <img src={wedding} alt={img}
+    <div className='flex flex-0 justify-between flex-col max-w-[175px] rounded-[20px] mx-10 mb-10 bg-slate-200 text-sm font'>
+
+        <img src={`../assets/${img}`} alt={img}
             className='w-[100%] rounded-[20px]'
         />
 

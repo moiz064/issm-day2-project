@@ -1,5 +1,5 @@
 import React from 'react'
-import { grid } from '../assets'
+import { grid } from '../../public/assets'
 
 const Hero = () => {
     return (
